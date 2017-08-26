@@ -473,6 +473,25 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
 
   system_progress = 0.75
 
+  script.Print("LLLLLLLLLLL             RRRRRRRRRRRRRRRRR");
+  script.Print("L:::::::::L             R::::::::::::::::R");
+  script.Print("L:::::::::L             R::::::RRRRRR:::::R");
+  script.Print("LL:::::::LL             RR:::::R     R:::::R");
+  script.Print("  L:::::L                 R::::R     R:::::R");
+  script.Print("  L:::::L                 R::::R     R:::::R");
+  script.Print("  L:::::L                 R::::RRRRRR:::::R");
+  script.Print("  L:::::L                 R:::::::::::::RR");
+  script.Print("  L:::::L                 R::::RRRRRR:::::R");
+  script.Print("  L:::::L                 R::::R     R:::::R");
+  script.Print("  L:::::L                 R::::R     R:::::R");
+  script.Print("  L:::::L         LLLLLL  R::::R     R:::::R");
+  script.Print("LL:::::::LLLLLLLLL:::::LRR:::::R     R:::::R");
+  script.Print("L::::::::::::::::::::::LR::::::R     R:::::R");
+  script.Print("L::::::::::::::::::::::LR::::::R     R:::::R");
+  script.Print("LLLLLLLLLLLLLLLLLLLLLLLLRRRRRRRR     RRRRRRR");
+  script.Print("                                            ");
+  script.Print("                  AOSP Oreo                 ");
+
   if OPTIONS.wipe_user_data:
     system_progress -= 0.1
   if HasVendorPartition(input_zip):
